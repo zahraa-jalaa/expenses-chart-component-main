@@ -1,0 +1,24 @@
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+* {
+  font-size: 1rem;
+}
+body{
+  background-color: #f7dcbf;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+.expense-chart {
+  max-width: 30rem;
+}
+.color-peach{
+  background-color: #F58972;
+}
