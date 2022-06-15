@@ -4,8 +4,8 @@ import Bar from './components/Bar';
 import Header from './components/Header';
 
 function App() {
-  const balance = 387.33;
-  
+  const balance = 921.48;
+  const expense = 534.15;
   return (
   
     <div className="mx-auto flex flex-col justify-center items-center h-screen expense-chart ">
@@ -16,7 +16,7 @@ function App() {
       <div  className='flex justify-between  items-center mt-5 border-t border-slate-200 pt-2.5'>
         <div> 
         <div className='font-light text-slate-500 text-sm'>Total this month</div>
-        <h1 className='font-bold'>$ {balance}</h1>
+        <h1 className='font-bold'>$ {parseFloat(balance - expense).toFixed(2)}</h1>
         </div>
         <div >
           <div className='font-bold text-sm'>+2.4%</div>
